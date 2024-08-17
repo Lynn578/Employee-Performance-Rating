@@ -16,7 +16,7 @@ years. INX's human resource policies are considered employee-friendly and widely
 
 # Load data
 
-df = pd.read_csv("Employee-Performance-Rating//INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.csv")
+df = pd.read_csv("INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.csv")
 st.write("Dataset loaded successfully!")
 
 
