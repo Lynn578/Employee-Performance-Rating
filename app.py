@@ -16,7 +16,7 @@ years. INX's human resource policies are considered employee-friendly and widely
 
 # Load data
 try:
-    df = pd.read_csv('C:\\Users\\Admin\\Desktop\\Employee-Performance-Rating\\INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.csv')
+    df = pd.read_csv("INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.csv")
     st.write("Dataset loaded successfully!")
 except Exception as e:
     st.error(f"Error loading dataset: {e}")
