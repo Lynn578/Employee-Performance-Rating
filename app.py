@@ -20,7 +20,6 @@ df = pd.read_excel('C:\\Users\\Admin\\Desktop\\Employee-Performance-Rating\\INX_
 st.write("Dataset loaded successfully!")
 
 
-
 # Display initial data
 st.write(df.head(5))
 
